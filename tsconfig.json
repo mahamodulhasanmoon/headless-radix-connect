@@ -1,0 +1,19 @@
+{
+  "extends": "ts-node/node16/tsconfig.json",
+  "ts-node": {
+    "swc": true,
+    "transpileOnly": true,
+    "files": true,
+    "esm": true
+  },
+  "compilerOptions": {
+    "target": "ES6",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "outDir": "dist",
+    "sourceMap": true,
+    "module": "ES6"  // Set the module option to "ES6" or "ESNext"
+  }
+}
